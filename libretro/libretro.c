@@ -450,6 +450,13 @@ int load_archive(char *filename, unsigned char *buffer, int maxsize, char *exten
 
 static void RAMCheatUpdate(void);
 
+#if defined(SF2000)
+bool disk_set_eject_state(bool ejected);
+unsigned int disk_get_image_index(void);
+bool disk_set_image_index(unsigned int index);
+unsigned int disk_get_num_images(void);
+#endif
+
 static void osd_input_update_internal_bitmasks(void)
 {
    int i, player = 0;
@@ -691,6 +698,46 @@ static void osd_input_update_internal_bitmasks(void)
 
       input.pad[i] = temp;
    }
+#if defined(SF2000)
+   if (ret & (1 << RETRO_DEVICE_ID_JOYPAD_L))
+   {
+      unsigned mediatotal = 0;
+	  mediatotal = disk_get_num_images() - 1;
+      if (mediatotal > 1)
+      {
+          unsigned mediaindex = 0;
+          mediaindex = disk_get_image_index();
+          if (disk_set_eject_state(true))
+          {
+              mediaindex--;
+              mediaindex = (mediaindex < 0) ? 0 : mediaindex;
+              if (disk_set_image_index(mediaindex))
+              {
+                  disk_set_eject_state(false);
+              }
+          }
+      }
+   }
+   else if (ret & (1 << RETRO_DEVICE_ID_JOYPAD_R))
+   {
+      unsigned mediatotal = 0;
+	  mediatotal = disk_get_num_images() - 1;
+      if (mediatotal > 1)
+      {
+          unsigned mediaindex = 0;
+          mediaindex = disk_get_image_index();
+          if (disk_set_eject_state(true))
+          {
+              mediaindex++;
+              mediaindex = (mediaindex == mediatotal) ? 0 : mediaindex;
+              if (disk_set_image_index(mediaindex))
+              {
+                  disk_set_eject_state(false);
+              }
+          }
+      }
+   }
+#endif
 }
 
 static void osd_input_update_internal(void)
@@ -2627,7 +2674,11 @@ static int disk_index;
 static int disk_count;
 static char *disk_info[MAX_DISKS];
 
+#if !defined(SF2000)
 static bool disk_set_eject_state(bool ejected)
+#else
+bool disk_set_eject_state(bool ejected)
+#endif
 {
   if (system_hw != SYSTEM_MCD)
     return false;
@@ -2653,7 +2704,11 @@ static bool disk_get_eject_state(void)
   return (cdd.status == CD_OPEN);
 }
 
+#if !defined(SF2000)
 static unsigned int disk_get_image_index(void)
+#else
+unsigned int disk_get_image_index(void)
+#endif
 {
   if ((system_hw != SYSTEM_MCD) || !cdd.loaded)
     return disk_count;
@@ -2661,7 +2716,11 @@ static unsigned int disk_get_image_index(void)
   return disk_index;
 }
 
+#if !defined(SF2000)
 static bool disk_set_image_index(unsigned int index)
+#else
+bool disk_set_image_index(unsigned int index)
+#endif
 {
   char header[0x210];
 
@@ -2686,7 +2745,11 @@ static bool disk_set_image_index(unsigned int index)
   return true;
 }
 
+#if !defined(SF2000)
 static unsigned int disk_get_num_images(void)
+#else
+unsigned int disk_get_num_images(void)
+#endif
 {
   return disk_count;
 }
