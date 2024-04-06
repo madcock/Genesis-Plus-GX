@@ -4659,6 +4659,1547 @@ struct retro_core_options_v2 options_be = {
    option_defs_be
 };
 
+/* RETRO_LANGUAGE_BG */
+
+#define CATEGORY_SYSTEM_LABEL_BG NULL
+#define CATEGORY_SYSTEM_INFO_0_BG NULL
+#define CATEGORY_VIDEO_LABEL_BG NULL
+#define CATEGORY_VIDEO_INFO_0_BG NULL
+#define CATEGORY_AUDIO_LABEL_BG NULL
+#define CATEGORY_AUDIO_INFO_0_BG NULL
+#define CATEGORY_INPUT_LABEL_BG NULL
+#define CATEGORY_INPUT_INFO_0_BG NULL
+#define CATEGORY_HACKS_LABEL_BG NULL
+#define CATEGORY_HACKS_INFO_0_BG NULL
+#define CATEGORY_CHANNEL_VOLUME_LABEL_BG NULL
+#define CATEGORY_CHANNEL_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SYSTEM_HW_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_BG NULL
+#define OPTION_VAL_AUTO_BG NULL
+#define OPTION_VAL_SG_1000_BG NULL
+#define OPTION_VAL_SG_1000_II_BG NULL
+#define OPTION_VAL_SG_1000_II_RAM_EXT_BG NULL
+#define OPTION_VAL_MARK_III_BG NULL
+#define OPTION_VAL_MASTER_SYSTEM_BG NULL
+#define OPTION_VAL_MASTER_SYSTEM_II_BG NULL
+#define OPTION_VAL_GAME_GEAR_BG NULL
+#define OPTION_VAL_MEGA_DRIVE_GENESIS_BG NULL
+#define GENESIS_PLUS_GX_REGION_DETECT_LABEL_BG NULL
+#define GENESIS_PLUS_GX_REGION_DETECT_INFO_0_BG NULL
+#define OPTION_VAL_NTSC_U_BG NULL
+#define OPTION_VAL_PAL_BG NULL
+#define OPTION_VAL_NTSC_J_BG NULL
+#define GENESIS_PLUS_GX_BIOS_LABEL_BG NULL
+#define GENESIS_PLUS_GX_BIOS_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_BG NULL
+#define OPTION_VAL_PER_BIOS_BG NULL
+#define OPTION_VAL_PER_GAME_BG NULL
+#define GENESIS_PLUS_GX_CART_BRAM_LABEL_BG NULL
+#define GENESIS_PLUS_GX_CART_BRAM_INFO_0_BG NULL
+#define OPTION_VAL_PER_CART_BG NULL
+#define GENESIS_PLUS_GX_CART_SIZE_LABEL_BG NULL
+#define GENESIS_PLUS_GX_CART_SIZE_INFO_0_BG NULL
+#define OPTION_VAL_128K_BG NULL
+#define OPTION_VAL_256K_BG NULL
+#define OPTION_VAL_512K_BG NULL
+#define OPTION_VAL_1MEG_BG NULL
+#define OPTION_VAL_2MEG_BG NULL
+#define OPTION_VAL_4MEG_BG NULL
+#define GENESIS_PLUS_GX_ADD_ON_LABEL_BG NULL
+#define GENESIS_PLUS_GX_ADD_ON_INFO_0_BG NULL
+#define OPTION_VAL_SEGA_MEGA_CD_BG NULL
+#define OPTION_VAL_MEGASD_BG NULL
+#define OPTION_VAL_NONE_BG NULL
+#define GENESIS_PLUS_GX_LOCK_ON_LABEL_BG NULL
+#define GENESIS_PLUS_GX_LOCK_ON_INFO_0_BG NULL
+#define OPTION_VAL_GAME_GENIE_BG NULL
+#define OPTION_VAL_ACTION_REPLAY_PRO_BG NULL
+#define OPTION_VAL_SONIC_KNUCKLES_BG NULL
+#define GENESIS_PLUS_GX_ASPECT_RATIO_LABEL_BG NULL
+#define GENESIS_PLUS_GX_ASPECT_RATIO_INFO_0_BG NULL
+#define OPTION_VAL_NTSC_PAR_BG NULL
+#define OPTION_VAL_PAL_PAR_BG NULL
+#define OPTION_VAL_4_3_BG NULL
+#define OPTION_VAL_UNCORRECTED_BG NULL
+#define GENESIS_PLUS_GX_OVERSCAN_LABEL_BG NULL
+#define GENESIS_PLUS_GX_OVERSCAN_INFO_0_BG NULL
+#define OPTION_VAL_TOP_BOTTOM_BG NULL
+#define OPTION_VAL_LEFT_RIGHT_BG NULL
+#define OPTION_VAL_FULL_BG NULL
+#define GENESIS_PLUS_GX_LEFT_BORDER_LABEL_BG NULL
+#define GENESIS_PLUS_GX_LEFT_BORDER_INFO_0_BG NULL
+#define OPTION_VAL_LEFT_BORDER_BG NULL
+#define OPTION_VAL_LEFT_RIGHT_BORDERS_BG NULL
+#define GENESIS_PLUS_GX_GG_EXTRA_LABEL_BG NULL
+#define GENESIS_PLUS_GX_GG_EXTRA_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_LABEL_BG NULL
+#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_BG NULL
+#define OPTION_VAL_MONOCHROME_BG NULL
+#define OPTION_VAL_COMPOSITE_BG NULL
+#define OPTION_VAL_SVIDEO_BG NULL
+#define OPTION_VAL_RGB_BG NULL
+#define GENESIS_PLUS_GX_LCD_FILTER_LABEL_BG NULL
+#define GENESIS_PLUS_GX_LCD_FILTER_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_RENDER_LABEL_BG NULL
+#define GENESIS_PLUS_GX_RENDER_INFO_0_BG NULL
+#define OPTION_VAL_SINGLE_FIELD_BG NULL
+#define OPTION_VAL_DOUBLE_FIELD_BG NULL
+#define GENESIS_PLUS_GX_FRAMESKIP_LABEL_BG NULL
+#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_BG NULL
+#define OPTION_VAL_MANUAL_BG NULL
+#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_BG NULL
+#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_YM2413_LABEL_BG NULL
+#define GENESIS_PLUS_GX_YM2413_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_YM2413_CORE_LABEL_BG NULL
+#define GENESIS_PLUS_GX_YM2413_CORE_INFO_0_BG NULL
+#define OPTION_VAL_MAME_BG NULL
+#define OPTION_VAL_NUKED_BG NULL
+#define GENESIS_PLUS_GX_YM2612_LABEL_BG NULL
+#define GENESIS_PLUS_GX_YM2612_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_YM2612_INFO_1_BG NULL
+#define OPTION_VAL_MAME_YM2612_BG NULL
+#define OPTION_VAL_MAME_ASIC_YM3438_BG NULL
+#define OPTION_VAL_MAME_ENHANCED_YM3438_BG NULL
+#define OPTION_VAL_NUKED_YM2612_BG NULL
+#define OPTION_VAL_NUKED_YM3438_BG NULL
+#define GENESIS_PLUS_GX_SOUND_OUTPUT_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_BG NULL
+#define OPTION_VAL_STEREO_BG NULL
+#define OPTION_VAL_MONO_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_FILTER_LABEL_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_BG NULL
+#define OPTION_VAL_LOW_PASS_BG NULL
+#define OPTION_VAL_EQ_BG NULL
+#define GENESIS_PLUS_GX_LOWPASS_RANGE_LABEL_BG NULL
+#define GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PSG_PREAMP_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_FM_PREAMP_LABEL_BG NULL
+#define GENESIS_PLUS_GX_FM_PREAMP_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_CDDA_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PCM_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_BG NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_GUN_INPUT_LABEL_BG NULL
+#define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_BG NULL
+#define OPTION_VAL_LIGHTGUN_BG NULL
+#define OPTION_VAL_TOUCHSCREEN_BG NULL
+#define GENESIS_PLUS_GX_GUN_CURSOR_LABEL_BG NULL
+#define GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_INVERT_MOUSE_LABEL_BG NULL
+#define GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_BG NULL
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_BG NULL
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_BG NULL
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_OVERCLOCK_LABEL_BG NULL
+#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_BG NULL
+#define OPTION_VAL_100_BG NULL
+#define OPTION_VAL_125_BG NULL
+#define OPTION_VAL_150_BG NULL
+#define OPTION_VAL_175_BG NULL
+#define OPTION_VAL_200_BG NULL
+#define OPTION_VAL_225_BG NULL
+#define OPTION_VAL_250_BG NULL
+#define OPTION_VAL_275_BG NULL
+#define OPTION_VAL_300_BG NULL
+#define OPTION_VAL_325_BG NULL
+#define OPTION_VAL_350_BG NULL
+#define OPTION_VAL_375_BG NULL
+#define OPTION_VAL_400_BG NULL
+#define OPTION_VAL_425_BG NULL
+#define OPTION_VAL_450_BG NULL
+#define OPTION_VAL_475_BG NULL
+#define OPTION_VAL_500_BG NULL
+#define GENESIS_PLUS_GX_FORCE_DTACK_LABEL_BG NULL
+#define GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_ADDR_ERROR_LABEL_BG NULL
+#define GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_CD_LATENCY_LABEL_BG NULL
+#define GENESIS_PLUS_GX_CD_LATENCY_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_INFO_0_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_LABEL_BG NULL
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_INFO_0_BG NULL
+
+struct retro_core_option_v2_category option_cats_bg[] = {
+   {
+      "system",
+      CATEGORY_SYSTEM_LABEL_BG,
+      CATEGORY_SYSTEM_INFO_0_BG
+   },
+   {
+      "video",
+      CATEGORY_VIDEO_LABEL_BG,
+      CATEGORY_VIDEO_INFO_0_BG
+   },
+   {
+      "audio",
+      CATEGORY_AUDIO_LABEL_BG,
+      CATEGORY_AUDIO_INFO_0_BG
+   },
+   {
+      "input",
+      CATEGORY_INPUT_LABEL_BG,
+      CATEGORY_INPUT_INFO_0_BG
+   },
+   {
+      "hacks",
+      CATEGORY_HACKS_LABEL_BG,
+      CATEGORY_HACKS_INFO_0_BG
+   },
+   {
+      "channel_volume",
+      CATEGORY_CHANNEL_VOLUME_LABEL_BG,
+      CATEGORY_CHANNEL_VOLUME_INFO_0_BG
+   },
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_bg[] = {
+   {
+      "genesis_plus_gx_system_hw",
+      GENESIS_PLUS_GX_SYSTEM_HW_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "auto",                 OPTION_VAL_AUTO_BG                 },
+         { "sg-1000",              OPTION_VAL_SG_1000_BG              },
+         { "sg-1000 II",           OPTION_VAL_SG_1000_II_BG           },
+         { "sg-1000 II + ram ext.",OPTION_VAL_SG_1000_II_RAM_EXT_BG},
+         { "mark-III",             OPTION_VAL_MARK_III_BG             },
+         { "master system",        OPTION_VAL_MASTER_SYSTEM_BG        },
+         { "master system II",     OPTION_VAL_MASTER_SYSTEM_II_BG     },
+         { "game gear",            OPTION_VAL_GAME_GEAR_BG            },
+         { "mega drive / genesis", OPTION_VAL_MEGA_DRIVE_GENESIS_BG   },
+         { NULL, NULL },
+      },
+      "auto"
+   },
+   {
+      "genesis_plus_gx_region_detect",
+      GENESIS_PLUS_GX_REGION_DETECT_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_REGION_DETECT_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "auto",    OPTION_VAL_AUTO_BG   },
+         { "ntsc-u",  OPTION_VAL_NTSC_U_BG },
+         { "pal",     OPTION_VAL_PAL_BG    },
+         { "ntsc-j",  OPTION_VAL_NTSC_J_BG },
+         { NULL, NULL },
+      },
+      "auto"
+   },
+   {
+      "genesis_plus_gx_bios",
+      GENESIS_PLUS_GX_BIOS_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_BIOS_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_system_bram",
+      GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "per bios", OPTION_VAL_PER_BIOS_BG },
+         { "per game", OPTION_VAL_PER_GAME_BG },
+         { NULL, NULL },
+      },
+      "per bios"
+   },
+   {
+      "genesis_plus_gx_cart_bram",
+      GENESIS_PLUS_GX_CART_BRAM_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_CART_BRAM_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "per cart", OPTION_VAL_PER_CART_BG },
+         { "per game", OPTION_VAL_PER_GAME_BG },
+         { NULL, NULL },
+      },
+      "per cart"
+   },
+   {
+      "genesis_plus_gx_cart_size",
+      GENESIS_PLUS_GX_CART_SIZE_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_CART_SIZE_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "disabled", "Disabled" },
+         { "128k",     OPTION_VAL_128K_BG  },
+         { "256k",     OPTION_VAL_256K_BG  },
+         { "512k",     OPTION_VAL_512K_BG  },
+         { "1meg",     OPTION_VAL_1MEG_BG    },
+         { "2meg",     OPTION_VAL_2MEG_BG    },
+         { "4meg",     OPTION_VAL_4MEG_BG    },
+         { NULL, NULL },
+      },
+      "4meg"
+   },
+   {
+      "genesis_plus_gx_add_on",
+      GENESIS_PLUS_GX_ADD_ON_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_ADD_ON_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "auto",         OPTION_VAL_AUTO_BG },
+         { "sega/mega cd", OPTION_VAL_SEGA_MEGA_CD_BG },
+         { "megasd",       OPTION_VAL_MEGASD_BG },
+         { "none",         OPTION_VAL_NONE_BG },
+         { NULL, NULL },
+      },
+      "auto"
+   },
+   {
+      "genesis_plus_gx_lock_on",
+      GENESIS_PLUS_GX_LOCK_ON_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_LOCK_ON_INFO_0_BG,
+      NULL,
+      "system",
+      {
+         { "disabled",            NULL },
+         { "game genie",          OPTION_VAL_GAME_GENIE_BG },
+         { "action replay (pro)", OPTION_VAL_ACTION_REPLAY_PRO_BG },
+         { "sonic & knuckles",    OPTION_VAL_SONIC_KNUCKLES_BG },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_aspect_ratio",
+      GENESIS_PLUS_GX_ASPECT_RATIO_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_ASPECT_RATIO_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "auto",     OPTION_VAL_AUTO_BG },
+         { "NTSC PAR", OPTION_VAL_NTSC_PAR_BG },
+         { "PAL PAR",  OPTION_VAL_PAL_PAR_BG },
+         { "4:3",  OPTION_VAL_4_3_BG },
+         { "Uncorrected",  OPTION_VAL_UNCORRECTED_BG },
+      },
+      "auto"
+   },
+   {
+      "genesis_plus_gx_overscan",
+      GENESIS_PLUS_GX_OVERSCAN_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_OVERSCAN_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled",   NULL },
+         { "top/bottom", OPTION_VAL_TOP_BOTTOM_BG },
+         { "left/right", OPTION_VAL_LEFT_RIGHT_BG },
+         { "full",       OPTION_VAL_FULL_BG },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_left_border",
+      GENESIS_PLUS_GX_LEFT_BORDER_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_LEFT_BORDER_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "left border", OPTION_VAL_LEFT_BORDER_BG },
+         { "left & right borders", OPTION_VAL_LEFT_RIGHT_BORDERS_BG },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_gg_extra",
+      GENESIS_PLUS_GX_GG_EXTRA_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_GG_EXTRA_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_blargg_ntsc_filter",
+      GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled",   NULL },
+         { "monochrome", OPTION_VAL_MONOCHROME_BG },
+         { "composite",  OPTION_VAL_COMPOSITE_BG },
+         { "svideo",     OPTION_VAL_SVIDEO_BG },
+         { "rgb",        OPTION_VAL_RGB_BG },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_lcd_filter",
+      GENESIS_PLUS_GX_LCD_FILTER_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_LCD_FILTER_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_render",
+      GENESIS_PLUS_GX_RENDER_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_RENDER_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "single field", OPTION_VAL_SINGLE_FIELD_BG },
+         { "double field", OPTION_VAL_DOUBLE_FIELD_BG },
+         { NULL, NULL },
+      },
+      "single field"
+   },
+   {
+      "genesis_plus_gx_frameskip",
+      GENESIS_PLUS_GX_FRAMESKIP_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_FRAMESKIP_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "auto",     OPTION_VAL_AUTO_BG },
+         { "manual",   OPTION_VAL_MANUAL_BG },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_frameskip_threshold",
+      GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_BG,
+      NULL,
+      "video",
+      {
+         { "15", NULL },
+         { "18", NULL },
+         { "21", NULL },
+         { "24", NULL },
+         { "27", NULL },
+         { "30", NULL },
+         { "33", NULL },
+         { "36", NULL },
+         { "39", NULL },
+         { "42", NULL },
+         { "45", NULL },
+         { "48", NULL },
+         { "51", NULL },
+         { "54", NULL },
+         { "57", NULL },
+         { "60", NULL },
+         { NULL, NULL },
+      },
+      "33"
+   },
+   {
+      "genesis_plus_gx_ym2413",
+      GENESIS_PLUS_GX_YM2413_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_YM2413_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "auto",     OPTION_VAL_AUTO_BG },
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "auto"
+   },
+#ifdef HAVE_OPLL_CORE
+   {
+      "genesis_plus_gx_ym2413_core",
+      GENESIS_PLUS_GX_YM2413_CORE_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_YM2413_CORE_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "mame",  OPTION_VAL_MAME_BG },
+         { "nuked", OPTION_VAL_NUKED_BG },
+         { NULL, NULL },
+      },
+      "mame"
+   },
+#endif
+   {
+      "genesis_plus_gx_ym2612",
+      GENESIS_PLUS_GX_YM2612_LABEL_BG,
+      NULL,
+#ifdef HAVE_YM3438_CORE
+      GENESIS_PLUS_GX_YM2612_INFO_0_BG,
+#else
+      GENESIS_PLUS_GX_YM2612_INFO_1_BG,
+#endif
+      NULL,
+      "audio",
+      {
+         { "mame (ym2612)",          OPTION_VAL_MAME_YM2612_BG },
+         { "mame (asic ym3438)",     OPTION_VAL_MAME_ASIC_YM3438_BG },
+         { "mame (enhanced ym3438)", OPTION_VAL_MAME_ENHANCED_YM3438_BG },
+#ifdef HAVE_YM3438_CORE
+         { "nuked (ym2612)",         OPTION_VAL_NUKED_YM2612_BG },
+         { "nuked (ym3438)",         OPTION_VAL_NUKED_YM3438_BG },
+#endif
+         { NULL, NULL },
+      },
+      "mame (ym2612)"
+   },
+   {
+      "genesis_plus_gx_sound_output",
+      GENESIS_PLUS_GX_SOUND_OUTPUT_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "stereo", OPTION_VAL_STEREO_BG },
+         { "mono",   OPTION_VAL_MONO_BG },
+         { NULL, NULL },
+      },
+      "stereo"
+   },
+   {
+      "genesis_plus_gx_audio_filter",
+      GENESIS_PLUS_GX_AUDIO_FILTER_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "disabled", NULL },
+         { "low-pass", OPTION_VAL_LOW_PASS_BG },
+#ifdef HAVE_EQ
+         { "EQ",       OPTION_VAL_EQ_BG },
+#endif
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_lowpass_range",
+      GENESIS_PLUS_GX_LOWPASS_RANGE_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "5",  NULL },
+         { "10", NULL },
+         { "15", NULL },
+         { "20", NULL },
+         { "25", NULL },
+         { "30", NULL },
+         { "35", NULL },
+         { "40", NULL },
+         { "45", NULL },
+         { "50", NULL },
+         { "55", NULL },
+         { "60", NULL },
+         { "65", NULL },
+         { "70", NULL },
+         { "75", NULL },
+         { "80", NULL },
+         { "85", NULL },
+         { "90", NULL },
+         { "95", NULL },
+         { NULL, NULL },
+      },
+      "60"
+   },
+   {
+      "genesis_plus_gx_psg_preamp",
+      GENESIS_PLUS_GX_PSG_PREAMP_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { "105", NULL },
+         { "110", NULL },
+         { "115", NULL },
+         { "120", NULL },
+         { "125", NULL },
+         { "130", NULL },
+         { "135", NULL },
+         { "140", NULL },
+         { "145", NULL },
+         { "150", NULL },
+         { "155", NULL },
+         { "160", NULL },
+         { "165", NULL },
+         { "170", NULL },
+         { "175", NULL },
+         { "180", NULL },
+         { "185", NULL },
+         { "190", NULL },
+         { "195", NULL },
+         { "200", NULL },
+         { NULL, NULL },
+      },
+      "150"
+   },
+   {
+      "genesis_plus_gx_fm_preamp",
+      GENESIS_PLUS_GX_FM_PREAMP_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_FM_PREAMP_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { "105", NULL },
+         { "110", NULL },
+         { "115", NULL },
+         { "120", NULL },
+         { "125", NULL },
+         { "130", NULL },
+         { "135", NULL },
+         { "140", NULL },
+         { "145", NULL },
+         { "150", NULL },
+         { "155", NULL },
+         { "160", NULL },
+         { "165", NULL },
+         { "170", NULL },
+         { "175", NULL },
+         { "180", NULL },
+         { "185", NULL },
+         { "190", NULL },
+         { "195", NULL },
+         { "200", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_cdda_volume",
+      GENESIS_PLUS_GX_CDDA_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_pcm_volume",
+      GENESIS_PLUS_GX_PCM_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+#ifdef HAVE_EQ
+   {
+      "genesis_plus_gx_audio_eq_low",
+      GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_audio_eq_mid",
+      GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_audio_eq_high",
+      GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_BG,
+      NULL,
+      "audio",
+      {
+         { "0",   NULL },
+         { "5",   NULL },
+         { "10",  NULL },
+         { "15",  NULL },
+         { "20",  NULL },
+         { "25",  NULL },
+         { "30",  NULL },
+         { "35",  NULL },
+         { "40",  NULL },
+         { "45",  NULL },
+         { "50",  NULL },
+         { "55",  NULL },
+         { "60",  NULL },
+         { "65",  NULL },
+         { "70",  NULL },
+         { "75",  NULL },
+         { "80",  NULL },
+         { "85",  NULL },
+         { "90",  NULL },
+         { "95",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+#endif
+   {
+      "genesis_plus_gx_gun_input",
+      GENESIS_PLUS_GX_GUN_INPUT_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_GUN_INPUT_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "lightgun",    OPTION_VAL_LIGHTGUN_BG },
+         { "touchscreen", OPTION_VAL_TOUCHSCREEN_BG },
+         { NULL, NULL },
+      },
+      "lightgun"
+   },
+   {
+      "genesis_plus_gx_gun_cursor",
+      GENESIS_PLUS_GX_GUN_CURSOR_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_invert_mouse",
+      GENESIS_PLUS_GX_INVERT_MOUSE_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_BG,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_no_sprite_limit",
+      GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_enhanced_vscroll",
+      GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_enhanced_vscroll_limit",
+      GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "2", NULL },
+         { "3",  NULL },
+         { "4", NULL },
+         { "5",  NULL },
+         { "6", NULL },
+         { "7",  NULL },
+         { "8", NULL },
+         { "9",  NULL },
+         { "10", NULL },
+         { "11",  NULL },
+         { "12", NULL },
+         { "13",  NULL },
+         { "14", NULL },
+         { "15",  NULL },
+         { "16", NULL },
+         { NULL, NULL },
+      },
+      "8"
+   },
+#ifdef HAVE_OVERCLOCK
+   {
+      "genesis_plus_gx_overclock",
+      GENESIS_PLUS_GX_OVERCLOCK_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_OVERCLOCK_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "100", OPTION_VAL_100_BG },
+         { "125", OPTION_VAL_125_BG },
+         { "150", OPTION_VAL_150_BG },
+         { "175", OPTION_VAL_175_BG },
+         { "200", OPTION_VAL_200_BG },
+         { "225", OPTION_VAL_225_BG },
+         { "250", OPTION_VAL_250_BG },
+         { "275", OPTION_VAL_275_BG },
+         { "300", OPTION_VAL_300_BG },
+         { "325", OPTION_VAL_325_BG },
+         { "350", OPTION_VAL_350_BG },
+         { "375", OPTION_VAL_375_BG },
+         { "400", OPTION_VAL_400_BG },
+         { "425", OPTION_VAL_425_BG },
+         { "450", OPTION_VAL_450_BG },
+         { "475", OPTION_VAL_475_BG },
+         { "500", OPTION_VAL_500_BG },
+         { NULL, NULL },
+      },
+      "100%"
+   },
+#endif
+   {
+      "genesis_plus_gx_force_dtack",
+      GENESIS_PLUS_GX_FORCE_DTACK_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+   {
+      "genesis_plus_gx_addr_error",
+      GENESIS_PLUS_GX_ADDR_ERROR_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+   {
+      "genesis_plus_gx_cd_latency",
+      GENESIS_PLUS_GX_CD_LATENCY_LABEL_BG,
+      NULL,
+        GENESIS_PLUS_GX_CD_LATENCY_INFO_0_BG,
+      NULL,
+      "hacks",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled"
+   },
+#ifdef USE_PER_SOUND_CHANNELS_CONFIG
+   {
+      "genesis_plus_gx_show_advanced_audio_settings",
+      GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      "genesis_plus_gx_psg_channel_0_volume",
+      GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_psg_channel_1_volume",
+      GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_psg_channel_2_volume",
+      GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_psg_channel_3_volume",
+      GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_0_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_1_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_2_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_3_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_4_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_md_channel_5_volume",
+      GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_0_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_1_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_2_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_3_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_4_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_5_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_6_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_7_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+   {
+      "genesis_plus_gx_sms_fm_channel_8_volume",
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_LABEL_BG,
+      NULL,
+      GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_INFO_0_BG,
+      NULL,
+      "channel_volume",
+      {
+         { "0",   NULL },
+         { "10",  NULL },
+         { "20",  NULL },
+         { "30",  NULL },
+         { "40",  NULL },
+         { "50",  NULL },
+         { "60",  NULL },
+         { "70",  NULL },
+         { "80",  NULL },
+         { "90",  NULL },
+         { "100", NULL },
+         { NULL, NULL },
+      },
+      "100"
+   },
+#endif
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_bg = {
+   option_cats_bg,
+   option_defs_bg
+};
+
 /* RETRO_LANGUAGE_CA */
 
 #define CATEGORY_SYSTEM_LABEL_CA "Sistema"
@@ -35482,15 +37023,15 @@ struct retro_core_options_v2 options_it = {
 /* RETRO_LANGUAGE_JA */
 
 #define CATEGORY_SYSTEM_LABEL_JA "システム"
-#define CATEGORY_SYSTEM_INFO_0_JA "基本となるハードウェアの選択、地域、BIOS およびメガCD/Sega CD セーブファイルの設定を変更します。"
+#define CATEGORY_SYSTEM_INFO_0_JA "基本となるハードウェアの選択、地域、BIOS およびメガ CD セーブファイルの設定を変更します。"
 #define CATEGORY_VIDEO_LABEL_JA "ビデオ"
-#define CATEGORY_VIDEO_INFO_0_JA "アスペクト比、ディスプレイのトリミング、ビデオフィルターおよびフレームスキップの設定を変更します。"
+#define CATEGORY_VIDEO_INFO_0_JA "アスペクト比、画面のトリミング、ビデオフィルターおよびフレームスキップの設定を変更します。"
 #define CATEGORY_AUDIO_LABEL_JA "オーディオ"
 #define CATEGORY_AUDIO_INFO_0_JA "オーディオデバイスの設定を変更します。"
 #define CATEGORY_INPUT_LABEL_JA "入力"
 #define CATEGORY_INPUT_INFO_0_JA "ライトガンやマウスの入力設定を変更します。"
 #define CATEGORY_HACKS_LABEL_JA "エミュレーションハック"
-#define CATEGORY_HACKS_INFO_0_JA "低レベルの性能と互換性に影響を与えるプロセッサのオーバークロックとエミュレーションの精度設定を変更します。"
+#define CATEGORY_HACKS_INFO_0_JA "低レベルパフォーマンスと互換性に影響する、プロセッサのオーバークロックとエミュレーション精度の設定を変更します。"
 #define CATEGORY_CHANNEL_VOLUME_LABEL_JA "高度なチャンネル音量設定"
 #define CATEGORY_CHANNEL_VOLUME_INFO_0_JA "個々のハードウェアオーディオチャンネルの音量を変更します。"
 #define GENESIS_PLUS_GX_SYSTEM_HW_LABEL_JA "システムハードウェア"
@@ -35499,43 +37040,43 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_SG_1000_JA NULL
 #define OPTION_VAL_SG_1000_II_JA NULL
 #define OPTION_VAL_SG_1000_II_RAM_EXT_JA NULL
-#define OPTION_VAL_MARK_III_JA NULL
+#define OPTION_VAL_MARK_III_JA "マーク III"
 #define OPTION_VAL_MASTER_SYSTEM_JA "マスターシステム"
 #define OPTION_VAL_MASTER_SYSTEM_II_JA "マスターシステム II"
 #define OPTION_VAL_GAME_GEAR_JA "ゲームギア"
-#define OPTION_VAL_MEGA_DRIVE_GENESIS_JA "メガドライブ/Genesis"
+#define OPTION_VAL_MEGA_DRIVE_GENESIS_JA "メガドライブ"
 #define GENESIS_PLUS_GX_REGION_DETECT_LABEL_JA "システム地域"
-#define GENESIS_PLUS_GX_REGION_DETECT_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_REGION_DETECT_INFO_0_JA "システムがどの地域からのものかを指定します。ゲームギア以外のコンソールでは、[PAL] は 50 Hz、[NTSC] は 60Hz で実行されます。間違った地域を選択した場合、ゲームは通常よりも速く、または遅く実行されることがあります。"
 #define OPTION_VAL_NTSC_U_JA NULL
 #define OPTION_VAL_PAL_JA NULL
 #define OPTION_VAL_NTSC_J_JA NULL
 #define GENESIS_PLUS_GX_BIOS_LABEL_JA "システムブート ROM"
-#define GENESIS_PLUS_GX_BIOS_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_JA NULL
-#define GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_BIOS_INFO_0_JA "エミュレートされたハードウェアで公式の BIOS/ブートローダーを使用します。RetroArch のシステムディレクトリにファイルが存在する場合、コンテンツのロード時にコンソール固有の起動画面/アニメーションを表示してからコンテンツを実行します。"
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_JA "CD システム BRAM (再起動が必要)"
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_JA "メガ CD コンテンツを実行する際に、地域ごと (BIOS ごと) にすべてのゲーム間で 1 つのセーブファイルを共有するか、ゲームごとに別のセーブファイルを作成するかを指定します (ゲームごと)。メガ CD は内部ストレージが限られており、多くのタイトルを保存するには十分ではありません。容量不足を回避するために、[ゲームごと] に設定しておくことを推奨します。"
 #define OPTION_VAL_PER_BIOS_JA "BIOS ごと"
 #define OPTION_VAL_PER_GAME_JA "ゲームごと"
-#define GENESIS_PLUS_GX_CART_BRAM_LABEL_JA NULL
-#define GENESIS_PLUS_GX_CART_BRAM_INFO_0_JA NULL
-#define OPTION_VAL_PER_CART_JA NULL
-#define GENESIS_PLUS_GX_CART_SIZE_LABEL_JA NULL
-#define GENESIS_PLUS_GX_CART_SIZE_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_CART_BRAM_LABEL_JA "CD バックアップカートリッジ BRAM (再起動が必要)"
+#define GENESIS_PLUS_GX_CART_BRAM_INFO_0_JA "メガ CD コンテンツを実行する際に、すべてのゲームで 1 つのバックアップ RAM カートリッジを共有する (カートリッジごと) か、ゲームごとに別のバックアップ RAM カートリッジを作成するか (ゲームごと) を指定します。"
+#define OPTION_VAL_PER_CART_JA "カートリッジごと"
+#define GENESIS_PLUS_GX_CART_SIZE_LABEL_JA "CD バックアップカートリッジ BRAM サイズ (再起動が必要)"
+#define GENESIS_PLUS_GX_CART_SIZE_INFO_0_JA "メガ CD コンテンツを実行する際のバックアップ RAM カートリッジのサイズを設定します。ゲームごとにバックアップ RAM カートリッジを作成する設定にしている場合、カートリッジサイズの増大を抑えることができます。"
 #define OPTION_VAL_128K_JA NULL
 #define OPTION_VAL_256K_JA NULL
 #define OPTION_VAL_512K_JA NULL
 #define OPTION_VAL_1MEG_JA NULL
 #define OPTION_VAL_2MEG_JA NULL
 #define OPTION_VAL_4MEG_JA NULL
-#define GENESIS_PLUS_GX_ADD_ON_LABEL_JA NULL
-#define GENESIS_PLUS_GX_ADD_ON_INFO_0_JA NULL
-#define OPTION_VAL_SEGA_MEGA_CD_JA NULL
+#define GENESIS_PLUS_GX_ADD_ON_LABEL_JA "CD アドオン (MD モード) (再起動が必要)"
+#define GENESIS_PLUS_GX_ADD_ON_INFO_0_JA "対応するメガドライブゲームで CD オーディオ再生に使用するアドオンを指定します。"
+#define OPTION_VAL_SEGA_MEGA_CD_JA "メガ CD"
 #define OPTION_VAL_MEGASD_JA NULL
 #define OPTION_VAL_NONE_JA "なし"
-#define GENESIS_PLUS_GX_LOCK_ON_LABEL_JA NULL
-#define GENESIS_PLUS_GX_LOCK_ON_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_LOCK_ON_LABEL_JA "ロックオンカートリッジ"
+#define GENESIS_PLUS_GX_LOCK_ON_INFO_0_JA "ロックオンシステムとは、特殊な構造をしたカートリッジの上部にある端子に他のカートリッジを接続することで、もとのゲームに新たな内容や機能を追加するメガドライブの機能です。このオプションは、エミュレートする特殊な [ロックオン] カートリッジの種類を指定します。RetroArch のシステムディレクトリに対応する BIOS ファイルが存在する必要があります。"
 #define OPTION_VAL_GAME_GENIE_JA NULL
-#define OPTION_VAL_ACTION_REPLAY_PRO_JA NULL
-#define OPTION_VAL_SONIC_KNUCKLES_JA NULL
+#define OPTION_VAL_ACTION_REPLAY_PRO_JA "アクションリプレイ (Pro)"
+#define OPTION_VAL_SONIC_KNUCKLES_JA "ソニック & ナックルズ"
 #define GENESIS_PLUS_GX_ASPECT_RATIO_LABEL_JA "コア提供アスペクト比"
 #define GENESIS_PLUS_GX_ASPECT_RATIO_INFO_0_JA "コンテンツの優先アスペクト比を選択します。RetroArch のアスペクト比がビデオ設定で [コア提供] に設定されている場合にのみ適用されます。"
 #define OPTION_VAL_NTSC_PAR_JA NULL
@@ -35543,87 +37084,87 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_4_3_JA NULL
 #define OPTION_VAL_UNCORRECTED_JA "補正なし"
 #define GENESIS_PLUS_GX_OVERSCAN_LABEL_JA "外枠"
-#define GENESIS_PLUS_GX_OVERSCAN_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_OVERSCAN_INFO_0_JA "これを有効にすると、画面の上下と左右のオーバースキャン領域を表示できます。これらは通常、標準画質テレビの端にあるベゼルによって隠されます。"
 #define OPTION_VAL_TOP_BOTTOM_JA "上/下"
 #define OPTION_VAL_LEFT_RIGHT_JA "左/右"
 #define OPTION_VAL_FULL_JA "フル"
-#define GENESIS_PLUS_GX_LEFT_BORDER_LABEL_JA NULL
+#define GENESIS_PLUS_GX_LEFT_BORDER_LABEL_JA "マスターシステムの横枠を隠す"
 #define GENESIS_PLUS_GX_LEFT_BORDER_INFO_0_JA "マスターシステムのゲームを実行する際、画面の左側から 8 ピクセル、または左側と右側の両方から 8 ピクセルを切り取ります。"
 #define OPTION_VAL_LEFT_BORDER_JA "左枠のみ"
 #define OPTION_VAL_LEFT_RIGHT_BORDERS_JA "左右の枠"
-#define GENESIS_PLUS_GX_GG_EXTRA_LABEL_JA NULL
-#define GENESIS_PLUS_GX_GG_EXTRA_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_GG_EXTRA_LABEL_JA "ゲームギア拡張画面"
+#define GENESIS_PLUS_GX_GG_EXTRA_INFO_0_JA "ゲームギアタイトルを強制的に SMS モードで実行し、解像度を 256x192 に向上させます。追加のコンテンツを表示することもありますが、通常は破損した/不要なイメージデータが外枠として表示されます。"
 #define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_LABEL_JA "Blargg NTSC フィルター"
-#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_JA NULL
-#define OPTION_VAL_MONOCHROME_JA NULL
+#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_JA "さまざまな NTSC TV 信号を再現するためにビデオフィルターを適用します。"
+#define OPTION_VAL_MONOCHROME_JA "白黒"
 #define OPTION_VAL_COMPOSITE_JA "コンポジット"
 #define OPTION_VAL_SVIDEO_JA "S端子"
 #define OPTION_VAL_RGB_JA NULL
 #define GENESIS_PLUS_GX_LCD_FILTER_LABEL_JA "液晶ディスプレイ残像フィルター"
-#define GENESIS_PLUS_GX_LCD_FILTER_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_RENDER_LABEL_JA NULL
-#define GENESIS_PLUS_GX_RENDER_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_LCD_FILTER_INFO_0_JA "ゲームギアの液晶ディスプレイの残像感を再現するために、イメージに [残像] フィルターを適用します。"
+#define GENESIS_PLUS_GX_RENDER_LABEL_JA "インターレースモード 2 出力"
+#define GENESIS_PLUS_GX_RENDER_INFO_0_JA "インターレースモード 2 は、フレームごとに交互に走査線を描画することで、通常の 2 倍の高さの 320x448 画像を出力できます。[ダブルフィールド] は元のハードウェアを再現し、ちらつきやインターレースのアーティファクトを伴うシャープな画像を、[シングルフィールド] はインターレース解除フィルターを適用し、軽度のぼやけを代償に安定した画像を生成します。"
 #define OPTION_VAL_SINGLE_FIELD_JA "シングルフィールド"
 #define OPTION_VAL_DOUBLE_FIELD_JA "ダブルフィールド"
 #define GENESIS_PLUS_GX_FRAMESKIP_LABEL_JA "フレームスキップ"
-#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_JA "フレームをスキップしてオーディオバッファアンダーラン (音割れ) を回避します。視覚的な滑らかさを犠牲にしてパフォーマンスを向上させます。 「自動」は、フロントエンドにアドバイスされたときにフレームをスキップします。「マニュアル」は、「フレームスキップ閾値 (%)」設定を使用します。"
+#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_JA "フレームをスキップしてオーディオバッファアンダーラン (音割れ) を回避します。視覚的な滑らかさを犠牲にしてパフォーマンスを向上させます。[自動] はフロントエンドによって指示された場合にフレームをスキップします。[手動] は [フレームスキップしきい値 (%)] 設定を使用します。"
 #define OPTION_VAL_MANUAL_JA "手動"
 #define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_JA "フレームスキップしきい値 (%)"
-#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_JA "'フレームスキップ' が '手動' に設定されている場合, フレームがスキップされるオーディオバッファ占有しきい値 (%) を指定します. 値を大きくすると, フレームを頻繁に落とすことでクラッキングが発生するリスクが低下します."
+#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_JA "[フレームスキップ] が [手動] に設定されている場合、フレームがスキップされるオーディオバッファ占有しきい値 (%) を指定します。値を高くするほど、より頻繁にフレームを落とすことで音割れが発生するリスクを軽減します。"
 #define GENESIS_PLUS_GX_YM2413_LABEL_JA "マスターシステム FM (YM2413)"
-#define GENESIS_PLUS_GX_YM2413_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_YM2413_INFO_0_JA "いくつかのセガ・マークIII/マスターシステムゲームで使用される FM サウンドのエミュレーションを有効にして、オーディオ出力を強化します。"
 #define GENESIS_PLUS_GX_YM2413_CORE_LABEL_JA "マスターシステム FM (YM2413) コア"
-#define GENESIS_PLUS_GX_YM2413_CORE_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_YM2413_CORE_INFO_0_JA "セガ・マーク III/マスターシステムの FM サウンドユニットをエミュレートするために使用する方式を選択します。[MAME] オプションは高速で、ほとんどのシステムで最高速度で動作します。[Nuked] オプションはサイクル精度が高く、非常に高品質ですが、高い CPU 性能を要求します。"
 #define OPTION_VAL_MAME_JA NULL
 #define OPTION_VAL_NUKED_JA NULL
-#define GENESIS_PLUS_GX_YM2612_LABEL_JA "メガドライブ/Genesis FM"
-#define GENESIS_PLUS_GX_YM2612_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_YM2612_INFO_1_JA NULL
+#define GENESIS_PLUS_GX_YM2612_LABEL_JA "メガドライブ FM"
+#define GENESIS_PLUS_GX_YM2612_INFO_0_JA "メガドライブの FM シンセサイザーをエミュレートするために使用する方式を選択します。[MAME] オプションは高速で、ほとんどのシステムで最高速度で動作します。[Nuked] はサイクル精度が高く、非常に高品質ですが、高い CPU 性能を要求します。YM2612 チップは初期型メガドライブ/Genesis で使用され、YM3438 は後期型メガドライブ/Genesis で使用されました。"
+#define GENESIS_PLUS_GX_YM2612_INFO_1_JA "メガドライブの FM シンセサイザーをエミュレートするために使用する方式を選択します。YM2612 チップは初期型メガドライブで使用され、YM3438 は後期型メガドライブで使用されました。"
 #define OPTION_VAL_MAME_YM2612_JA NULL
 #define OPTION_VAL_MAME_ASIC_YM3438_JA NULL
 #define OPTION_VAL_MAME_ENHANCED_YM3438_JA NULL
 #define OPTION_VAL_NUKED_YM2612_JA NULL
 #define OPTION_VAL_NUKED_YM3438_JA NULL
-#define GENESIS_PLUS_GX_SOUND_OUTPUT_LABEL_JA NULL
-#define GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_SOUND_OUTPUT_LABEL_JA "サウンド出力"
+#define GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_JA "サウンド再生をステレオにするかモノラルにするかを選択します。"
 #define OPTION_VAL_STEREO_JA "ステレオ"
 #define OPTION_VAL_MONO_JA "モノラル"
 #define GENESIS_PLUS_GX_AUDIO_FILTER_LABEL_JA "オーディオフィルター"
-#define GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_JA "モデル 1 メガドライブの特徴的な音をよりよくシミュレートするために、ローパスオーディオフィルターを有効にします。"
 #define OPTION_VAL_LOW_PASS_JA "ローパス"
 #define OPTION_VAL_EQ_JA NULL
 #define GENESIS_PLUS_GX_LOWPASS_RANGE_LABEL_JA "ローパスフィルター %"
-#define GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_JA "ローパスオーディオフィルターのカットオフ周波数を指定します。値を大きくするほど、高周波スペクトルの広い範囲が減衰するため、フィルターの「強さ」を感じやすくなります。"
 #define GENESIS_PLUS_GX_PSG_PREAMP_LABEL_JA "PSG プリアンプレベル"
-#define GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_FM_PREAMP_LABEL_JA "FMプリアンプレベル"
-#define GENESIS_PLUS_GX_FM_PREAMP_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_JA "エミュレートされた SN76496 4 チャンネルプログラマブルサウンドジェネレータのオーディオプリアンプレベルを設定します。このサウンドジェネレータは、SG-1000、セガ・マーク III、マスターシステム、ゲームギアおよびメガドライブに搭載されています。"
+#define GENESIS_PLUS_GX_FM_PREAMP_LABEL_JA "FM プリアンプレベル"
+#define GENESIS_PLUS_GX_FM_PREAMP_INFO_0_JA "エミュレートされたメガドライブ FM サウンドシンセサイザーまたはセガ・マーク III/マスターシステム FM サウンドユニットのオーディオプリアンプレベルを設定します。"
 #define GENESIS_PLUS_GX_CDDA_VOLUME_LABEL_JA "CD-DA 音量"
-#define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_JA "エミュレートされた CD オーディオ再生出力のミキシング音量を調整します。"
 #define GENESIS_PLUS_GX_PCM_VOLUME_LABEL_JA "PCM 音量"
-#define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_JA "エミュレートされたメガ CD RF5C164 PCM サウンドジェネレータのミキシングボリュームを調整します。"
 #define GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_JA "EQ 低"
-#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_JA "内部オーディオイコライザの低音域を調整します。"
 #define GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_JA "EQ 中"
-#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_JA "内部オーディオイコライザの中音域を調整します。"
 #define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_JA "EQ 高"
-#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_JA "内部オーディオイコライザの高音域を調整します。"
 #define GENESIS_PLUS_GX_GUN_INPUT_LABEL_JA "ライトガン入力"
-#define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_JA "マウス操作の [ライトガン] または [タッチスクリーン] 入力を使用します。"
 #define OPTION_VAL_LIGHTGUN_JA "ライトガン"
 #define OPTION_VAL_TOUCHSCREEN_JA "タッチスクリーン"
-#define GENESIS_PLUS_GX_GUN_CURSOR_LABEL_JA NULL
-#define GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_GUN_CURSOR_LABEL_JA "ライトガンクロスヘアを表示"
+#define GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_JA "入力デバイスの種類に [MD Menacer]、[MD Justifiers] または [MS Light Phaser] が設定されている場合、ライトガンのクロスヘアを表示します。"
 #define GENESIS_PLUS_GX_INVERT_MOUSE_LABEL_JA "マウスの Y 軸を反転"
-#define GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_JA NULL
-#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_JA NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_JA NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_JA NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_JA "[MD Mouse] 入力デバイスの Y 軸を反転します。"
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_JA "ラインごとのスプライト制限を削除"
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_JA "スキャンライン/スプライトのハードウェア制限を解除します。チラつきを軽減しますが、一部のゲームはこの制限を描画に利用しているため、解除することで描画バグが発生する可能性があります。"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_JA "タイルごとの垂直スクロールの拡張"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_JA "隣接するセルの vscroll 値で平均化することで、各セルを 16px 2 セル の代わりに垂直にスクロールさせることができます。このハックは、2 セルの垂直スクロールモードを使用するゲームにのみ適用されます。"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_JA "タイルごとの垂直スクロールの拡張制限"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_JA "タイルごとの垂直スクロールの拡張が有効な場合にのみ、垂直スクロールの拡張制限を調整します。隣接するタイル間の vscroll の差がこの制限よりも大きい場合、拡張は無効になります。"
 #define GENESIS_PLUS_GX_OVERCLOCK_LABEL_JA "CPU 速度"
-#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_JA "エミュレートされた CPU をオーバークロックします。実行速度の低下を軽減できますが、不具合を引き起こす可能性があります。"
 #define OPTION_VAL_100_JA NULL
 #define OPTION_VAL_125_JA NULL
 #define OPTION_VAL_150_JA NULL
@@ -35641,14 +37182,14 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_450_JA NULL
 #define OPTION_VAL_475_JA NULL
 #define OPTION_VAL_500_JA NULL
-#define GENESIS_PLUS_GX_FORCE_DTACK_LABEL_JA NULL
-#define GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_FORCE_DTACK_LABEL_JA "システムロック"
+#define GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_JA "不正なアドレスアクセスを実行する際に実際のハードウェア上で発生するシステムロックをエミュレートします。正常に動作させるために不正な動作に依存する特定のデモや Homebrew をプレイする場合にのみ無効にすることをお勧めします。"
 #define GENESIS_PLUS_GX_ADDR_ERROR_LABEL_JA "68K アドレスエラー"
-#define GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_JA "メガドライブのメイン CPU (Motorola 68000) は、アラインされていないメモリアクセスを実行しようとするとアドレスエラー例外を生成します。有効にすると、この動作をシミュレートします。 ROM ハックをプレイする場合にのみ無効にしてください。精度の低いエミュレータで開発された ROM ハックは、正しく動作させるために無効な RAM アクセスに依存することがあります。"
 #define GENESIS_PLUS_GX_CD_LATENCY_LABEL_JA "CD アクセス時間"
-#define GENESIS_PLUS_GX_CD_LATENCY_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_CD_LATENCY_INFO_0_JA "ロードされたディスクの特定領域への読み込みまたはシークを開始する際に、元の CD ハードウェアの遅延をシミュレートします。CD データが利用可能になるタイミングが早すぎるとクラッシュするゲームや、一部のゲームで発生する CD オーディオの同期ずれを修正するために必要となります。"
 #define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_LABEL_JA "高度なオーディオ音量設定を表示 (メニューを再表示)"
-#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_JA NULL
+#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_JA "低レベルオーディオチャンネルパラメータの設定を有効にします。注意: この設定を反映するにはクイックメニューを切り替える必要があります。"
 #define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_LABEL_JA "PSG トーンチャンネル 0 音量 %"
 #define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_INFO_0_JA "PSG トーンチャンネル 0 の音量を下げます。"
 #define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_LABEL_JA "PSG トーンチャンネル 1 音量 %"
@@ -35657,18 +37198,18 @@ struct retro_core_options_v2 options_it = {
 #define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_INFO_0_JA "PSG トーンチャンネル 2 の音量を下げます。"
 #define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_LABEL_JA "PSG ノイズチャンネル 3 音量 %"
 #define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_INFO_0_JA "PSG ノイズチャンネル 3 の音量を下げます。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 0 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 0 の音量を下げます。MAME FM エミュレータでのみ動作します。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 1 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 1 の音量を下げます。MAME FM エミュレータでのみ動作します。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 2 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 2 の音量を下げます。MAME FM エミュレータでのみ動作します。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 3 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 3 の音量を下げます。MAME FM エミュレータでのみ動作します。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 4 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 4 の音量を下げます。MAME FM エミュレータでのみ動作します。"
-#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_JA "メガドライブ/Genesis FM チャンネル 5 音量 %"
-#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_JA "メガドライブ/Genesis FM チャンネル 5 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_JA "メガドライブ FM チャンネル 0 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 0 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_JA "メガドライブ FM チャンネル 1 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 1 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_JA "メガドライブ FM チャンネル 2 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 2 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_JA "メガドライブ FM チャンネル 3 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 3 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_JA "メガドライブ FM チャンネル 4 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 4 の音量を下げます。MAME FM エミュレータでのみ動作します。"
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_JA "メガドライブ FM チャンネル 5 音量 %"
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_JA "メガドライブ FM チャンネル 5 の音量を下げます。MAME FM エミュレータでのみ動作します。"
 #define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_LABEL_JA "マスターシステム FM (YM2413) チャンネル 0 音量 %"
 #define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_INFO_0_JA "マスターシステム FM チャンネル 0 の音量を下げます。"
 #define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_LABEL_JA "マスターシステム FM (YM2413) チャンネル 1 音量 %"
@@ -44728,148 +46269,148 @@ struct retro_core_options_v2 options_pl = {
 /* RETRO_LANGUAGE_PT_BR */
 
 #define CATEGORY_SYSTEM_LABEL_PT_BR "Sistema"
-#define CATEGORY_SYSTEM_INFO_0_PT_BR "Altera as configurações do hardware base, da região, da BIOS e do arquivo de salvamento do Sega CD."
+#define CATEGORY_SYSTEM_INFO_0_PT_BR "Altera as configurações de seleção de hardware básica, região, BIOS e arquivo de salvamento do Sega CD/Mega-CD."
 #define CATEGORY_VIDEO_LABEL_PT_BR "Vídeo"
-#define CATEGORY_VIDEO_INFO_0_PT_BR "Altera a proporção da tela, o corte, o filtro de vídeo e as configurações do salto de quadros."
+#define CATEGORY_VIDEO_INFO_0_PT_BR "Altera as configurações de proporção de tela, corte de tela, filtro de vídeo e pulo de quadro."
 #define CATEGORY_AUDIO_LABEL_PT_BR "Áudio"
-#define CATEGORY_AUDIO_INFO_0_PT_BR "Altera as configurações do dispositivo de áudio."
+#define CATEGORY_AUDIO_INFO_0_PT_BR "Altera as configurações de dispositivo de áudio."
 #define CATEGORY_INPUT_LABEL_PT_BR "Entrada"
-#define CATEGORY_INPUT_INFO_0_PT_BR "Altera as configurações da pistola de luz e entrada do mouse."
+#define CATEGORY_INPUT_INFO_0_PT_BR "Altera as configurações de entrada de pistola de luz e/ou mouse."
 #define CATEGORY_HACKS_LABEL_PT_BR "Hacks de emulação"
-#define CATEGORY_HACKS_INFO_0_PT_BR "Altera os parâmetros de overclock do processador e da precisão da emulação que afetam o desempenho e a compatibilidade."
-#define CATEGORY_CHANNEL_VOLUME_LABEL_PT_BR "Configurações avançadas de volume de canais"
-#define CATEGORY_CHANNEL_VOLUME_INFO_0_PT_BR "Altera o volume de cada canal de áudio individualmente no hardware."
+#define CATEGORY_HACKS_INFO_0_PT_BR "Altera as configurações de precisão de emulação e velocidade do processador (overclock), que afetam o desempenho de baixo nível e compatibilidade."
+#define CATEGORY_CHANNEL_VOLUME_LABEL_PT_BR "Configurações avançadas de volume"
+#define CATEGORY_CHANNEL_VOLUME_INFO_0_PT_BR "Altera o volume de cada canal de áudio do hardware."
 #define GENESIS_PLUS_GX_SYSTEM_HW_LABEL_PT_BR "Hardware do sistema"
-#define GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_PT_BR "Executa o conteúdo carregado com um console emulado específico. 'Automático' selecionará o sistema mais apropriado para o jogo atual."
+#define GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_PT_BR "Executa o conteúdo em uma emulação de console específica. \"Automático\" selecionará o sistema mais apropriado."
 #define OPTION_VAL_AUTO_PT_BR "Automático"
 #define OPTION_VAL_SG_1000_PT_BR NULL
 #define OPTION_VAL_SG_1000_II_PT_BR NULL
-#define OPTION_VAL_SG_1000_II_RAM_EXT_PT_BR NULL
+#define OPTION_VAL_SG_1000_II_RAM_EXT_PT_BR "SG-1000 II + Ext. de RAM"
 #define OPTION_VAL_MARK_III_PT_BR NULL
 #define OPTION_VAL_MASTER_SYSTEM_PT_BR NULL
 #define OPTION_VAL_MASTER_SYSTEM_II_PT_BR NULL
 #define OPTION_VAL_GAME_GEAR_PT_BR NULL
-#define OPTION_VAL_MEGA_DRIVE_GENESIS_PT_BR "Mega Drive"
+#define OPTION_VAL_MEGA_DRIVE_GENESIS_PT_BR NULL
 #define GENESIS_PLUS_GX_REGION_DETECT_LABEL_PT_BR "Região do sistema"
-#define GENESIS_PLUS_GX_REGION_DETECT_INFO_0_PT_BR "Define de qual região o sistema é. Para outros consoles que não sejam o Game Gear, o 'PAL' é 50hz enquanto o 'NTSC' é 60hz. Os jogos podem rodar mais rápido ou mais lento do que o normal caso a região incorreta seja selecionada."
+#define GENESIS_PLUS_GX_REGION_DETECT_INFO_0_PT_BR "Altera a região do sistema. Com exceção do Game Gear, o \"PAL\" é 50 Hz e o \"NTSC\" é 60 Hz. Os jogos podem rodar mais rápido ou mais lento do que o normal caso a região incorreta seja selecionada."
 #define OPTION_VAL_NTSC_U_PT_BR NULL
 #define OPTION_VAL_PAL_PT_BR NULL
 #define OPTION_VAL_NTSC_J_PT_BR NULL
 #define GENESIS_PLUS_GX_BIOS_LABEL_PT_BR "ROM de inicialização do sistema"
-#define GENESIS_PLUS_GX_BIOS_INFO_0_PT_BR "Usa a BIOS/carregador de inicialização oficial para o hardware emulado, se estiver presente no diretório de sistema do RetroArch. Exibe a sequência/animação da inicialização específica do console e executa o conteúdo carregado."
-#define GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_PT_BR NULL
-#define GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_PT_BR NULL
-#define OPTION_VAL_PER_BIOS_PT_BR "Por BIOS"
-#define OPTION_VAL_PER_GAME_PT_BR "Por jogo"
-#define GENESIS_PLUS_GX_CART_BRAM_LABEL_PT_BR NULL
-#define GENESIS_PLUS_GX_CART_BRAM_INFO_0_PT_BR NULL
-#define OPTION_VAL_PER_CART_PT_BR NULL
-#define GENESIS_PLUS_GX_CART_SIZE_LABEL_PT_BR NULL
-#define GENESIS_PLUS_GX_CART_SIZE_INFO_0_PT_BR NULL
-#define OPTION_VAL_128K_PT_BR NULL
-#define OPTION_VAL_256K_PT_BR NULL
-#define OPTION_VAL_512K_PT_BR NULL
-#define OPTION_VAL_1MEG_PT_BR NULL
-#define OPTION_VAL_2MEG_PT_BR NULL
-#define OPTION_VAL_4MEG_PT_BR NULL
-#define GENESIS_PLUS_GX_ADD_ON_LABEL_PT_BR "Módulo de CD (modo MD) (requer reinício)"
-#define GENESIS_PLUS_GX_ADD_ON_INFO_0_PT_BR "Especifique qual módulo usar para reprodução de áudio de CD com jogos suportados do Mega Drive."
-#define OPTION_VAL_SEGA_MEGA_CD_PT_BR "Sega CD"
+#define GENESIS_PLUS_GX_BIOS_INFO_0_PT_BR "Usa o BIOS/carregador de inicialização oficial no hardware emulado caso esteja no diretório de sistema do RetroArch. Exibe a sequência/animação da inicialização do console e executa o conteúdo."
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_LABEL_PT_BR "BRAM do sistema (requer reinício)"
+#define GENESIS_PLUS_GX_SYSTEM_BRAM_INFO_0_PT_BR "Ao executar um contéudo de Sega CD/Mega-CD, especifica o tipo de salvamento — um único arquivo por região (BIOS) ou um arquivo para cada jogo (Jogo).\nOBSERVAÇÃO: Sega CD/Mega-CD têm um armazenamento interno limitado. Para evitar a falta de espaço, a configuração \"Jogo\" é recomendada."
+#define OPTION_VAL_PER_BIOS_PT_BR "BIOS"
+#define OPTION_VAL_PER_GAME_PT_BR "Jogo"
+#define GENESIS_PLUS_GX_CART_BRAM_LABEL_PT_BR "BRAM do cartucho de backup (requer reinício)"
+#define GENESIS_PLUS_GX_CART_BRAM_INFO_0_PT_BR "Ao executar um contéudo de Sega CD/Mega-CD, especifica o tipo de backup — um único backup para todos os jogos (Cartucho) ou criar um cartucho de backup para cada jogo (Jogo)."
+#define OPTION_VAL_PER_CART_PT_BR "Cartucho"
+#define GENESIS_PLUS_GX_CART_SIZE_LABEL_PT_BR "Tamanho do BRAM do cartucho de backup (requer reínicio)"
+#define GENESIS_PLUS_GX_CART_SIZE_INFO_0_PT_BR "Define o tamanho do cartucho de backup ao executar um conteúdo de Sega CD/Mega-CD. Útil ao configurar o cartucho de backup como \"Jogo\", para evitar multiplos cartuchos grandes."
+#define OPTION_VAL_128K_PT_BR "128 Kbit"
+#define OPTION_VAL_256K_PT_BR "256 Kbit"
+#define OPTION_VAL_512K_PT_BR "512 Kbit"
+#define OPTION_VAL_1MEG_PT_BR "1 Mbit"
+#define OPTION_VAL_2MEG_PT_BR "2 Mbit"
+#define OPTION_VAL_4MEG_PT_BR "4 Mbit"
+#define GENESIS_PLUS_GX_ADD_ON_LABEL_PT_BR "Expansão (modo MD) (requer reinício)"
+#define GENESIS_PLUS_GX_ADD_ON_INFO_0_PT_BR "Especifica a expansão (add-on) que reproduzirar o áudio de CD em jogos compativeis do Mega Drive/Genesis."
+#define OPTION_VAL_SEGA_MEGA_CD_PT_BR "Sega CD/Mega-CD"
 #define OPTION_VAL_MEGASD_PT_BR NULL
 #define OPTION_VAL_NONE_PT_BR "Nenhum"
 #define GENESIS_PLUS_GX_LOCK_ON_LABEL_PT_BR "Cartucho Lock-On"
-#define GENESIS_PLUS_GX_LOCK_ON_INFO_0_PT_BR "A tecnologia Lock-On é um recurso do Mega Drive que permite que um jogo mais antigo se conecte à porta de passagem de um cartucho especial para uma jogabilidade estendida ou alterada. Esta opção especifica qual tipo de cartucho especial 'lock-on' a ser emulado. Um arquivo da Bios correspondente deve estar presente no diretório do sistema do RetroArch."
+#define GENESIS_PLUS_GX_LOCK_ON_INFO_0_PT_BR "Especifica o cartucho lock-on que será emulado. A tecnologia Lock-On é um recurso do Mega Drive/Genesis que permite que um jogo mais antigo se conecte à porta de passagem de um cartucho especial para uma jogabilidade estendida ou alterada. Um arquivo de BIOS correspondente deve estar presente no diretório do sistema do RetroArch."
 #define OPTION_VAL_GAME_GENIE_PT_BR NULL
-#define OPTION_VAL_ACTION_REPLAY_PRO_PT_BR NULL
+#define OPTION_VAL_ACTION_REPLAY_PRO_PT_BR "Pro Action Replay"
 #define OPTION_VAL_SONIC_KNUCKLES_PT_BR NULL
-#define GENESIS_PLUS_GX_ASPECT_RATIO_LABEL_PT_BR "Proporção de tela fornecida pelo núcleo"
-#define GENESIS_PLUS_GX_ASPECT_RATIO_INFO_0_PT_BR "Escolhe a proporção de tela preferida do conteúdo. Isso se aplicará somente quando a proporção de tela do RetroArch estiver configurada como 'Fornecida pelo núcleo' nas configurações de vídeo."
-#define OPTION_VAL_NTSC_PAR_PT_BR NULL
-#define OPTION_VAL_PAL_PAR_PT_BR NULL
+#define GENESIS_PLUS_GX_ASPECT_RATIO_LABEL_PT_BR "Proporção de tela do núcleo"
+#define GENESIS_PLUS_GX_ASPECT_RATIO_INFO_0_PT_BR "Define a proporção de tela do conteúdo. Será aplicada somente quando a proporção de tela do RetroArch estiver configurada como \"Fornecida pelo núcleo\" nas configurações de vídeo."
+#define OPTION_VAL_NTSC_PAR_PT_BR "PAR do NTSC"
+#define OPTION_VAL_PAL_PAR_PT_BR "PAR do PAL"
 #define OPTION_VAL_4_3_PT_BR NULL
 #define OPTION_VAL_UNCORRECTED_PT_BR "Não corrigida"
 #define GENESIS_PLUS_GX_OVERSCAN_LABEL_PT_BR "Bordas"
-#define GENESIS_PLUS_GX_OVERSCAN_INFO_0_PT_BR "Ative esta opção para exibir as regiões de overscan na parte superior/inferior e/ou esquerda/direita da tela. Normalmente, seriam ocultas pelo painel ao redor da borda de uma televisão de definição padrão."
+#define GENESIS_PLUS_GX_OVERSCAN_INFO_0_PT_BR "Exibe as regiões de overscan na parte superior/inferior e/ou esquerda/direita da tela. Em uma televisão clássica, essas bordas são ocultadas pela moldura de televisão."
 #define OPTION_VAL_TOP_BOTTOM_PT_BR "Superior/inferior"
 #define OPTION_VAL_LEFT_RIGHT_PT_BR "Esquerda/direita"
-#define OPTION_VAL_FULL_PT_BR "Completa"
+#define OPTION_VAL_FULL_PT_BR "Todas"
 #define GENESIS_PLUS_GX_LEFT_BORDER_LABEL_PT_BR "Ocultar bordas laterais do Master System"
-#define GENESIS_PLUS_GX_LEFT_BORDER_INFO_0_PT_BR "Corta 8 pixels do lado esquerdo da tela, ou dos lados esquerdo e direito ao executar jogos do Master System."
-#define OPTION_VAL_LEFT_BORDER_PT_BR "Apenas a borda esquerda"
+#define GENESIS_PLUS_GX_LEFT_BORDER_INFO_0_PT_BR "Corta 8 píxeis do lado esquerdo da tela, ou dos lados esquerdo e direito ao executar jogos do Master System."
+#define OPTION_VAL_LEFT_BORDER_PT_BR "Apenas borda esquerda"
 #define OPTION_VAL_LEFT_RIGHT_BORDERS_PT_BR "Bordas esquerda e direita"
 #define GENESIS_PLUS_GX_GG_EXTRA_LABEL_PT_BR "Tela estendida do Game Gear"
-#define GENESIS_PLUS_GX_GG_EXTRA_INFO_0_PT_BR "Força os títulos do Game Gear rodarem no modo 'SMS' com uma resolução aumentada de 256x192. Pode mostrar conteúdo adicional, mas geralmente exibe uma borda com dados corrompidos ou indesejados na imagem."
-#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_LABEL_PT_BR "Filtro NTSC do Blargg"
-#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_PT_BR "Aplica um filtro de vídeo para imitar vários sinais de TV NTSC."
+#define GENESIS_PLUS_GX_GG_EXTRA_INFO_0_PT_BR "Força os títulos do Game Gear a rodar no modo SMS com uma resolução aumentada de 256x192. Pode mostrar conteúdo adicional, mas geralmente exibe uma borda com dados corrompidos ou indesejados na imagem."
+#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_LABEL_PT_BR "Filtro NTSC (Blargg)"
+#define GENESIS_PLUS_GX_BLARGG_NTSC_FILTER_INFO_0_PT_BR "Aplica um filtro de vídeo para imitar vários sinais NTSC de televisão."
 #define OPTION_VAL_MONOCHROME_PT_BR "Monocromático"
 #define OPTION_VAL_COMPOSITE_PT_BR "Composto"
 #define OPTION_VAL_SVIDEO_PT_BR NULL
 #define OPTION_VAL_RGB_PT_BR NULL
 #define GENESIS_PLUS_GX_LCD_FILTER_LABEL_PT_BR "Filtro fantasma LCD"
-#define GENESIS_PLUS_GX_LCD_FILTER_INFO_0_PT_BR "Aplica um filtro de efeito 'fantasma' na imagem para imitar as características das telas de LCD do Game Gear e do Genesis Nomad."
-#define GENESIS_PLUS_GX_RENDER_LABEL_PT_BR "Modo de entrelaçamento de vídeo 2"
-#define GENESIS_PLUS_GX_RENDER_INFO_0_PT_BR "O Modo de entrelaçamento de vídeo 2 permite que o Mega Drive gere uma imagem que duplica sua altura original para 320x448 (alta resolução) desenhando linhas de varredura alternativas em cada quadro (usado pelos modos multijogador de Sonic the Hedgehog 2 e Combat Cars). 'Campo duplo' imita o hardware original: produz uma imagem nítida com tremulação ou entrelaçamento de artefatos. 'Campo único' aplica um filtro de desentrelaçamento para estabilizar a imagem, mas irá desfocá-la um pouco."
+#define GENESIS_PLUS_GX_LCD_FILTER_INFO_0_PT_BR "Aplica um filtro de efeito \"fantasma\" na imagem para imitar as características das telas de LCD do Game Gear e do Genesis Nomad."
+#define GENESIS_PLUS_GX_RENDER_LABEL_PT_BR "Saída de modo entrelaçado 2"
+#define GENESIS_PLUS_GX_RENDER_INFO_0_PT_BR "O modo entrelaçado 2 permite que o Mega Drive/Genesis produza uma imagem 320x448 de altura dupla (alta resolução) ao desenhar linhas de varredura alternativas em cada quadro (usado no modo multijogador de Sonic the Hedgehog 2 e Combat Cars). \"Campo duplo\" imita o hardware original: produz uma imagem nítida com tremulação/entrelaçamento de artefatos. \"Campo único\" aplica um filtro de desentrelaçamento para estabilizar a imagem, mas causa um pequeno desfoque."
 #define OPTION_VAL_SINGLE_FIELD_PT_BR "Campo único"
 #define OPTION_VAL_DOUBLE_FIELD_PT_BR "Campo duplo"
 #define GENESIS_PLUS_GX_FRAMESKIP_LABEL_PT_BR "Pulo de quadro"
-#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_PT_BR "Ignora quadros para evitar o esvaziamento do buffer do áudio (cortes no áudio). Melhora o desempenho ao custo da suavidade visual. A opção 'Automático' ignora os quadros quando for aconselhado pela interface. Já 'Manual' utiliza a configuração 'Limite do salto de quadros (%)'."
+#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_PT_BR "Ignora quadros para evitar o esvaziamento da memória intermédia (buffer) do áudio (corte no áudio). Melhora o desempenho ao custo da suavidade visual. A opção \"Automático\" ignora os quadros quando aconselhado pela interface. \"Manual\" usa a configuração \"Limite do pulo de quadro (%)\"."
 #define OPTION_VAL_MANUAL_PT_BR NULL
-#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_PT_BR "Limite de pulo de quadro (%)"
-#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_PT_BR "Quando 'Pulo de quadro' é definido como 'Manual', especifica o limite de ocupação do buffer de áudio (porcentagem) abaixo do qual os quadros serão ignorados. Valores mais altos reduzem o risco de engasgos pois farão que os quadros sejam descartados com mais frequência."
+#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_PT_BR "Limite do pulo de quadro (%)"
+#define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_PT_BR "Ao configurar \"Pulo de quadro\" como \"Manual\", especifica o limite da memória intermédia (buffer) de áudio em porcentagem, os quadros fora da porcentagem serão ignorados. Valores maiores reduzem o risco de engasgo por descartar quadros com mais frequência."
 #define GENESIS_PLUS_GX_YM2413_LABEL_PT_BR "Som FM do Master System (YM2413)"
-#define GENESIS_PLUS_GX_YM2413_INFO_0_PT_BR "Ativa a emulação da unidade de som FM usada por certos jogos do Master System para obter uma saída de áudio aprimorada."
-#define GENESIS_PLUS_GX_YM2413_CORE_LABEL_PT_BR "Núcleo de FM do Master System (YM2413)"
-#define GENESIS_PLUS_GX_YM2413_CORE_INFO_0_PT_BR "Selecione o método usado para emular a unidade de Som FM do Master System/Sega Mark III. A opção 'MAME' é rápida, e funciona em plena velocidade na maioria dos sistemas. A opção 'Nuked' é de ciclo preciso, de altíssima qualidade, e tem requisitos consideráveis de CPU."
+#define GENESIS_PLUS_GX_YM2413_INFO_0_PT_BR "Ativa a emulação da Unidade de Som FM (FM Sound Unit), usada por alguns jogos de Sega Mark III/Master System para obter uma saída de áudio otimizada."
+#define GENESIS_PLUS_GX_YM2413_CORE_LABEL_PT_BR "Núcleo do som FM do Master System (YM2413)"
+#define GENESIS_PLUS_GX_YM2413_CORE_INFO_0_PT_BR "Define o método usado para emular a Unidade de Som FM (FM Sound Unit) do Sega Mark III/Master System. A opção \"MAME\" é mais rápida e funciona em velocidade máxima na maioria dos sistemas. A opção \"Nuked\" é de ciclo-preciso, altíssima qualidade e tem requisitos de CPU superiores."
 #define OPTION_VAL_MAME_PT_BR NULL
 #define OPTION_VAL_NUKED_PT_BR NULL
-#define GENESIS_PLUS_GX_YM2612_LABEL_PT_BR "Som FM do Mega Drive"
-#define GENESIS_PLUS_GX_YM2612_INFO_0_PT_BR "Seleciona o método usado para emular o sintetizador FM (gerador de som principal) do Mega Drive. As opções 'MAME' são rápidas e rodam a toda velocidade na maioria dos sistemas. As opções 'Nuked' têm uma emulação precisa de ciclos, qualidade muito alta e utiliza recursos substanciais da CPU. O chip 'YM2612' é usado pelo Mega Drive Modelo 1 original. O 'YM3438' é usado em revisões posteriores do Mega Drive."
-#define GENESIS_PLUS_GX_YM2612_INFO_1_PT_BR "Seleciona o método usado para emular o sintetizador de FM (gerador de som principal) do Mega Drive. O chip YM2612 é usado pelo Mega Drive Modelo 1 original. O YM3438 é usado nas revisões posteriores do Mega Drive."
+#define GENESIS_PLUS_GX_YM2612_LABEL_PT_BR "Som FM do Mega Drive/Genesis"
+#define GENESIS_PLUS_GX_YM2612_INFO_0_PT_BR "Define o método usado para emular o sintetizador FM (gerador de som principal) do Mega Drive/Genesis. As opções \"MAME\" são rápidas e funcionam na velocidade máxima na maioria dos sistemas. As opções \"Nuked\" têm uma emulação de ciclo-preciso, altíssima qualidade e tem requisitos de CPU superiores. O chip \"YM2612\" é usado pelo primeiro modelo de Mega Drive/Genesis. O \"YM3438\" é usado em edições posteriores do Mega Drive/Genesis."
+#define GENESIS_PLUS_GX_YM2612_INFO_1_PT_BR "Define o método usado para emular o sintetizador de FM (gerador de som principal) do Mega Drive/Genesis. O chip \"YM2612\" é usado pelo primeiro modelo de Mega Drive/Genesis. O \"YM3438\" é usado em edições posteriores do Mega Drive/Genesis."
 #define OPTION_VAL_MAME_YM2612_PT_BR NULL
 #define OPTION_VAL_MAME_ASIC_YM3438_PT_BR NULL
-#define OPTION_VAL_MAME_ENHANCED_YM3438_PT_BR "MAME (YM3438 aprimorado)"
+#define OPTION_VAL_MAME_ENHANCED_YM3438_PT_BR "MAME (YM3438 otimizado)"
 #define OPTION_VAL_NUKED_YM2612_PT_BR NULL
 #define OPTION_VAL_NUKED_YM3438_PT_BR NULL
 #define GENESIS_PLUS_GX_SOUND_OUTPUT_LABEL_PT_BR "Saída de som"
-#define GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_PT_BR "Selecione a reprodução do áudio em estéreo ou mono."
+#define GENESIS_PLUS_GX_SOUND_OUTPUT_INFO_0_PT_BR "Define a reprodução de som entre estéreo ou mono."
 #define OPTION_VAL_STEREO_PT_BR "Estéreo"
 #define OPTION_VAL_MONO_PT_BR NULL
 #define GENESIS_PLUS_GX_AUDIO_FILTER_LABEL_PT_BR "Filtro de áudio"
-#define GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_PT_BR "Ativa um filtro de áudio passa-baixo para simular melhor o som característico de um Mega Drive Modelo 1."
+#define GENESIS_PLUS_GX_AUDIO_FILTER_INFO_0_PT_BR "Ativa um filtro de áudio passa-baixo para simular melhor o som característico do primeiro modelo de Mega Drive/Genesis."
 #define OPTION_VAL_LOW_PASS_PT_BR "Passa-baixo"
-#define OPTION_VAL_EQ_PT_BR "Equalizador"
-#define GENESIS_PLUS_GX_LOWPASS_RANGE_LABEL_PT_BR "Filtro passa-baixo %"
-#define GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_PT_BR "Especifica a frequência de corte do filtro de áudio passa-baixo. Um valor mais alto aumenta a 'força' percebida do filtro, uma vez que uma faixa mais ampla do espectro de alta frequência é atenuada."
+#define OPTION_VAL_EQ_PT_BR "Equalização (EG)"
+#define GENESIS_PLUS_GX_LOWPASS_RANGE_LABEL_PT_BR "Filtro passa-baixo (%)"
+#define GENESIS_PLUS_GX_LOWPASS_RANGE_INFO_0_PT_BR "Define a frequência de corte do filtro passo-baixo. Valores maiores aumentam a \"força\" percebida do filtro, uma vez que uma faixa mais ampla do espectro de alta frequência é atenuada."
 #define GENESIS_PLUS_GX_PSG_PREAMP_LABEL_PT_BR "Nível de pré-amplificação do PSG"
-#define GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_PT_BR "Define o nível de pré-amplificação do áudio do Gerador de Som Programável (PSG) de 4 canais SN76496 emulado encontrado no Master System, Game Gear e Mega Drive."
-#define GENESIS_PLUS_GX_FM_PREAMP_LABEL_PT_BR "Nível de pré-amplificação do FM"
-#define GENESIS_PLUS_GX_FM_PREAMP_INFO_0_PT_BR "Define o nível de pré-amplificação da emulação do sintetizador de áudio FM do Mega Drive ou Master System."
+#define GENESIS_PLUS_GX_PSG_PREAMP_INFO_0_PT_BR "Define o nível de pré-amplificação do Gerador de Som Programável (PSG) de 4 canais (SN76496), encontrado no SG-1000, Sega Mark III, Master System, Game Gear e Mega Drive/Genesis."
+#define GENESIS_PLUS_GX_FM_PREAMP_LABEL_PT_BR "Nível de pré-amplificação do som FM"
+#define GENESIS_PLUS_GX_FM_PREAMP_INFO_0_PT_BR "Define o nível de pré-amplificação do sintetizador de som FM do Mega Drive/Genesis ou da Unidade de Som FM (FM Sound Unit) do Sega Mark III/Master System."
 #define GENESIS_PLUS_GX_CDDA_VOLUME_LABEL_PT_BR "Volume do CD-DA"
-#define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_PT_BR "Ajusta o volume de mixagem da saída de áudio do CD emulado."
-#define GENESIS_PLUS_GX_PCM_VOLUME_LABEL_PT_BR "Volume de onda PCM"
-#define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_PT_BR "Ajusta o volume da mixagem da saída de áudio do gerador PCM RF5C164 emulado do Sega CD."
+#define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_PT_BR "Ajusta o volume de mixagem da saída de áudio do CD."
+#define GENESIS_PLUS_GX_PCM_VOLUME_LABEL_PT_BR "Volume da PCM"
+#define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_PT_BR "Ajusta o volume da mixagem da saída de áudio do gerador PCM RF5C164 do Sega CD/Mega-CD."
 #define GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_PT_BR "Equalização de graves"
-#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_PT_BR "Ajuste a faixa de baixa frequência do equalizador de áudio interno."
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_PT_BR "Ajusta a faixa de baixa frequência do equalizador de áudio interno."
 #define GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_PT_BR "Equalização de médios"
-#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_PT_BR "Ajuste a faixa de média frequência do equalizador de áudio interno."
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_PT_BR "Ajusta a faixa de média frequência do equalizador de áudio interno."
 #define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_PT_BR "Equalização de agudos"
-#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_PT_BR "Ajuste a faixa de alta frequência do equalizador de áudio interno."
-#define GENESIS_PLUS_GX_GUN_INPUT_LABEL_PT_BR "Saída da Pistola de luz"
-#define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_PT_BR "Usa uma entrada 'Pistola de luz' ou 'Toque na tela' controlada por mouse."
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_PT_BR "Ajusta a faixa de alta frequência do equalizador de áudio interno."
+#define GENESIS_PLUS_GX_GUN_INPUT_LABEL_PT_BR "Saída da pistola de luz"
+#define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_PT_BR "Usa uma entrada de \"Pistola de luz\" ou \"Tela sensível ao toque\", controladas pelo mouse."
 #define OPTION_VAL_LIGHTGUN_PT_BR "Pistola de luz"
 #define OPTION_VAL_TOUCHSCREEN_PT_BR "Tela sensível ao toque"
 #define GENESIS_PLUS_GX_GUN_CURSOR_LABEL_PT_BR "Mostrar mira da pistola"
-#define GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_PT_BR "Exibe a mira da pistola de luz ao usar os tipos de dispositivo da entrada MD Menacer, MD Justifiers e MS Light Phaser."
+#define GENESIS_PLUS_GX_GUN_CURSOR_INFO_0_PT_BR "Exibe a mira da pistola de luz ao usar dispositivos de entrada de Menacer (MD), Justifiers (MD) e Light Phaser (MS)."
 #define GENESIS_PLUS_GX_INVERT_MOUSE_LABEL_PT_BR "Inverter eixo Y do mouse"
-#define GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_PT_BR "Inverte o eixo Y do tipo do dispositivo da entrada MD Mouse."
-#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_PT_BR "Remover limite de sprite por linha"
-#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_PT_BR "Remove o limite de sprite por varredura do hardware, 8 (Master System) ou 20 (Mega Drive). Isso reduz a tremulação (flickering), mas pode causar falhas visuais, pois alguns jogos exploram o limite de hardware para gerar efeitos especiais."
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_PT_BR NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_PT_BR NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_PT_BR NULL
-#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_PT_BR NULL
+#define GENESIS_PLUS_GX_INVERT_MOUSE_INFO_0_PT_BR "Inverte o eixo Y do dispositivo de entrada de Mouse (MD)."
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_LABEL_PT_BR "Remover limite de sprites por linha"
+#define GENESIS_PLUS_GX_NO_SPRITE_LIMIT_INFO_0_PT_BR "Remove o limite de sprites por linha de varredura do hardware original. Isso reduz a tremulação (flickering), mas pode causar falhas gráficas, já que alguns jogos aproveitam esta limitação para gerar efeitos especiais."
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LABEL_PT_BR "Otimizar rolagem vertical"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_INFO_0_PT_BR "Permite que cada célula seja rolada verticalmente, em vez de, a cada 2 células de 16px, através da média com o valor vscroll da célula vizinha. Apenas é aplicada em alguns jogos que usam o modo de rolagem vertical de 2 células."
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_PT_BR "Otimizar limite da rolagem vertical"
+#define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_PT_BR "Requer \"Otimizar rolagem vertical\" habilitada.\nAjusta o limite da otimização da rolagem vertical. Quando a diferença de vscroll entre os blocos (tiles) adjacentes é maior que o limite, a otimização é desativada."
 #define GENESIS_PLUS_GX_OVERCLOCK_LABEL_PT_BR "Velocidade da CPU"
-#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_PT_BR "Faz um overclock da CPU emulada. Pode reduzir a desaceleração, mas pode causar falhas."
+#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_PT_BR "Aumenta a velocidade (overclock) da CPU emulada. Pode reduzir a lentidão, mas pode causar falhas."
 #define OPTION_VAL_100_PT_BR NULL
 #define OPTION_VAL_125_PT_BR NULL
 #define OPTION_VAL_150_PT_BR NULL
@@ -44888,51 +46429,51 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_475_PT_BR NULL
 #define OPTION_VAL_500_PT_BR NULL
 #define GENESIS_PLUS_GX_FORCE_DTACK_LABEL_PT_BR "Bloqueios do sistema"
-#define GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_PT_BR "Emula os travamentos originais do sistema que ocorrem num hardware real ao executar um acesso ilegal aos endereços. Isso só deve ser desativado ao reproduzir certas demos e homebrews que dependem do comportamento ilegal para a correta operação."
-#define GENESIS_PLUS_GX_ADDR_ERROR_LABEL_PT_BR "Erro de endereçamento do 68K"
-#define GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_PT_BR "A CPU do Mega Drive (o Motorola 68000) produz um erro de endereçamento (falha) ao tentar acessar a memória não alinhada. A ativação do 'Erro de endereçamento do 68K' simula este comportamento. Ele deve ser desativado apenas durante a execução de ROMs modificadas, pois geralmente são desenvolvidas usando emuladores menos precisos e podem contar com acesso inválido à RAM para a correta operação."
+#define GENESIS_PLUS_GX_FORCE_DTACK_INFO_0_PT_BR "Emula os bloqueios do sistema, que ocorrem no hardware original ao executar um acesso de endereço ilegal. Isso só deve ser desativado ao executar demos e homebrews, que dependem desse procedimento ilegal."
+#define GENESIS_PLUS_GX_ADDR_ERROR_LABEL_PT_BR "Erro de endereço do 68K"
+#define GENESIS_PLUS_GX_ADDR_ERROR_INFO_0_PT_BR "A CPU do Mega Drive/Genesis (Motorola 68000) produz um erro de endereço ao tentar acessar a memória não alinhada. Apenas deve ser desativado durante a execução de ROMs modificadas, pois geralmente são desenvolvidas usando emuladores menos precisos e podem depender do acesso inválido à RAM."
 #define GENESIS_PLUS_GX_CD_LATENCY_LABEL_PT_BR "Intervalo de leitura do CD"
 #define GENESIS_PLUS_GX_CD_LATENCY_INFO_0_PT_BR "Simula a latência de hardware original do CD ao iniciar a leitura ou a busca para um local específico do disco. É obrigatorio em alguns jogos que travam quando a informação é liberada muito rápida e também corrige erros de sicronização de áudio. A desativação pode ser útil em jogos de MSU-MD, pois os loops das faixas de áudio ficam mais contínuos."
 #define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_LABEL_PT_BR "Mostrar configurações avançadas de volume de áudio (reabrir menu)"
-#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_PT_BR "Ativa a configuração dos parâmetros do canal de áudio de baixo nível. NOTA: É necessário sair e entrar novamente no 'Menu rápido' para que a mudança tenha efeito."
-#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal de tom 0 do PSG (%)"
-#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de tom 0 do PSG."
-#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal de tom 1 do PSG (%)"
-#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de tom 1 do PSG."
-#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal de tom 2 do PSG (%)"
-#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de tom 2 do PSG."
-#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal de tom 3 do PSG (%)"
-#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de tom 3 do PSG."
-#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal FM 0 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 0 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal FM 1 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 1 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal FM 2 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 2 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal FM 3 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 3 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_PT_BR "Volume do canal FM 4 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 4 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_PT_BR "Volume do canal FM 5 do Mega Drive (%)"
-#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 5 de FM do Mega Drive. Só terá efeito com os emuladores MAME de FM."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal 0 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 0 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal 1 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 1 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal 2 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 2 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal 3 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 3 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_LABEL_PT_BR "Volume do canal 4 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 4 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_LABEL_PT_BR "Volume do canal 5 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 5 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_LABEL_PT_BR "Volume do canal 6 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 6 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_LABEL_PT_BR "Volume do canal 7 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 7 de FM do Master System."
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_LABEL_PT_BR "Volume do canal 8 FM (YM2413) de Master System (%)"
-#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_INFO_0_PT_BR "Reduz o volume do canal 8 de FM do Master System."
+#define GENESIS_PLUS_GX_SHOW_ADVANCED_AUDIO_SETTINGS_INFO_0_PT_BR "Habilita a configuração dos parâmetros do canal de áudio de baixo nível.\nOBSERVAÇÃO: \"Menu rápido\" deve ser reaberto para exibir a mudança."
+#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal de sintonia 0 do PSG (%)"
+#define GENESIS_PLUS_GX_PSG_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de sintonia 0 do PSG."
+#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal de sintonia 1 do PSG (%)"
+#define GENESIS_PLUS_GX_PSG_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de sintonia 1 do PSG."
+#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal de sintonia 2 do PSG (%)"
+#define GENESIS_PLUS_GX_PSG_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de sintonia 2 do PSG."
+#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal de sintonia 3 do PSG (%)"
+#define GENESIS_PLUS_GX_PSG_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de sintonia 3 do PSG."
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal de som FM 0 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 0 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal de som FM 1 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 1 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal de som FM 2 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 2 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal de som FM 3 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 3 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_LABEL_PT_BR "Volume do canal de som FM 4 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_4_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 4 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_LABEL_PT_BR "Volume do canal de som FM 5 do Mega Drive/Genesis (%)"
+#define GENESIS_PLUS_GX_MD_CHANNEL_5_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 5 do Mega Drive/Genesis. Apenas em emuladores MAME de som FM."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_LABEL_PT_BR "Volume do canal de som FM 0 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_0_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 0 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_LABEL_PT_BR "Volume do canal de som FM 1 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_1_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 1 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_LABEL_PT_BR "Volume do canal de som FM 2 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_2_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 2 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_LABEL_PT_BR "Volume do canal de som FM 3 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_3_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 3 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_LABEL_PT_BR "Volume do canal de som FM 4 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_4_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 4 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_LABEL_PT_BR "Volume do canal de som FM 5 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_5_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 5 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_LABEL_PT_BR "Volume do canal de som FM 6 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_6_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 6 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_LABEL_PT_BR "Volume do canal de som FM 7 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_7_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 7 do Master System."
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_LABEL_PT_BR "Volume do canal de som FM 8 (YM2413) do Master System (%)"
+#define GENESIS_PLUS_GX_SMS_FM_CHANNEL_8_VOLUME_INFO_0_PT_BR "Reduz o volume do canal de som FM 8 do Master System."
 
 struct retro_core_option_v2_category option_cats_pt_br[] = {
    {
@@ -46317,7 +47858,7 @@ struct retro_core_options_v2 options_pt_br = {
 #define GENESIS_PLUS_GX_ADD_ON_INFO_0_PT_PT NULL
 #define OPTION_VAL_SEGA_MEGA_CD_PT_PT NULL
 #define OPTION_VAL_MEGASD_PT_PT NULL
-#define OPTION_VAL_NONE_PT_PT "Nenhum"
+#define OPTION_VAL_NONE_PT_PT "Não partilhar"
 #define GENESIS_PLUS_GX_LOCK_ON_LABEL_PT_PT NULL
 #define GENESIS_PLUS_GX_LOCK_ON_INFO_0_PT_PT NULL
 #define OPTION_VAL_GAME_GENIE_PT_PT NULL
@@ -47822,7 +49363,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define CATEGORY_CHANNEL_VOLUME_LABEL_RU "Расширенные настройки громкости каналов"
 #define CATEGORY_CHANNEL_VOLUME_INFO_0_RU "Индивидуальная настройка громкости аудиоканалов."
 #define GENESIS_PLUS_GX_SYSTEM_HW_LABEL_RU "Модель системы"
-#define GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_RU "Запуск контента на эмулируемой консоли определённой модели. Режим 'Авто' выбирает наиболее подходящую систему для текущей игры."
+#define GENESIS_PLUS_GX_SYSTEM_HW_INFO_0_RU "Запуск контента на эмулируемой консоли указанной модели. В режиме 'Автоматически' будет выбрана наиболее подходящая система для текущей игры."
 #define OPTION_VAL_AUTO_RU "Автоматически"
 #define OPTION_VAL_SG_1000_RU NULL
 #define OPTION_VAL_SG_1000_II_RU NULL
@@ -47894,7 +49435,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define OPTION_VAL_SINGLE_FIELD_RU "Одно поле"
 #define OPTION_VAL_DOUBLE_FIELD_RU "Два поля"
 #define GENESIS_PLUS_GX_FRAMESKIP_LABEL_RU "Пропуск кадров"
-#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_RU "Пропускать кадры, чтобы избежать появления треска при опустошении аудиобуфера. Улучшает производительность, но снижает плавность изображения. В режиме 'Авто' пропуск кадров регулируется фронтендом. В режиме 'Вручную' используется значение опции 'Граница пропуска кадров (%)'."
+#define GENESIS_PLUS_GX_FRAMESKIP_INFO_0_RU "Пропускать кадры для избежания треска при опустошении аудиобуфера. Улучшает производительность, но снижает плавность изображения. В режиме 'Автоматически' пропуск кадров регулируется фронтендом. В режиме 'Вручную' используется настройка 'Граница пропуска кадров (%)'."
 #define OPTION_VAL_MANUAL_RU "Вручную"
 #define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_LABEL_RU "Граница пропуска кадров (%)"
 #define GENESIS_PLUS_GX_FRAMESKIP_THRESHOLD_INFO_0_RU "Устанавливает порог заполнения аудиобуфера ниже которого будет включаться пропуск кадров, если для опции 'Пропуск кадров' выбрано значение 'Вручную'. Большие значения снижают вероятность появления треска за счёт более частого пропуска кадров."
@@ -47930,12 +49471,12 @@ struct retro_core_options_v2 options_pt_pt = {
 #define GENESIS_PLUS_GX_CDDA_VOLUME_INFO_0_RU "Регулировка уровня громкости на выходе эмулируемого CD-аудио."
 #define GENESIS_PLUS_GX_PCM_VOLUME_LABEL_RU "Громкость PCM"
 #define GENESIS_PLUS_GX_PCM_VOLUME_INFO_0_RU "Регулировка громкости звука на выходе эмулируемого PCM генератора RF5C164 Sega CD/Mega-CD."
-#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_RU "EQ низ"
-#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_RU "Регулировка нижнечастотного диапазона встроенного эквалайзера звука."
-#define GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_RU "EQ середина"
-#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_RU "Регулировка среднечастотного диапазона встроенного эквалайзера звука."
-#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_RU "EQ верх"
-#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_RU "Регулировка верхнечастотного диапазона встроенного эквалайзера звука."
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_LABEL_RU "Настройка нижних частот"
+#define GENESIS_PLUS_GX_AUDIO_EQ_LOW_INFO_0_RU "Регулировка нижнечастотного диапазона для встроенного эквалайзера звука."
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_LABEL_RU "Настройка средних частот"
+#define GENESIS_PLUS_GX_AUDIO_EQ_MID_INFO_0_RU "Регулировка среднечастотного диапазона для встроенного эквалайзера звука."
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_LABEL_RU "Настройка верхних частот"
+#define GENESIS_PLUS_GX_AUDIO_EQ_HIGH_INFO_0_RU "Регулировка верхнечастотного диапазона для встроенного эквалайзера звука."
 #define GENESIS_PLUS_GX_GUN_INPUT_LABEL_RU "Источник светового пистолета"
 #define GENESIS_PLUS_GX_GUN_INPUT_INFO_0_RU "Использовать для светового пистолета мышь или ввод с сенсорного экрана."
 #define OPTION_VAL_LIGHTGUN_RU "Световой пистолет"
@@ -47951,7 +49492,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_LABEL_RU "Предел улучшения верт. скроллинга тайлов"
 #define GENESIS_PLUS_GX_ENHANCED_VSCROLL_LIMIT_INFO_0_RU "Только при вкл. \"Улучшенный верт. скроллинг тайлов\". Регулирует предел улучшения верт. скроллинга. Если значение vscroll между соседними тайлами превышает установленное ограничение, улучшение отключается."
 #define GENESIS_PLUS_GX_OVERCLOCK_LABEL_RU "Скорость CPU"
-#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_RU "Разгон эмулируемого CPU. Может уменьшать подтормаживания, но вызывать ошибки."
+#define GENESIS_PLUS_GX_OVERCLOCK_INFO_0_RU "Разгон эмулируемого процесса. Может уменьшить замедления, но также приводить к сбоям."
 #define OPTION_VAL_100_RU NULL
 #define OPTION_VAL_125_RU NULL
 #define OPTION_VAL_150_RU NULL
